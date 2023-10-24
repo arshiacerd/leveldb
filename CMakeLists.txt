@@ -34,7 +34,7 @@ endif (WIN32)
 option(LEVELDB_BUILD_TESTS "Build LevelDB's unit tests" ON)
 option(LEVELDB_BUILD_BENCHMARKS "Build LevelDB's benchmarks" ON)
 option(LEVELDB_INSTALL "Install LevelDB's header and library" ON)
-
+# Edit by Arshia
 include(CheckIncludeFile)
 check_include_file("unistd.h" HAVE_UNISTD_H)
 
